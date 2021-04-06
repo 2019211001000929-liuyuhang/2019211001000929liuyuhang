@@ -1,8 +1,10 @@
-package com.liuyuhang.week3;
+package com.liuyuhang.week4;
 
-import javax.servlet.*;
+import javax.servlet.ServletContext;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.*;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.*;
@@ -48,7 +50,7 @@ public class RegisterServlet extends HttpServlet {
         try {
             con.createStatement().executeUpdate(sql);
             ResultSet rs=con.createStatement().executeQuery("select * from usertable");
-            response.setContentType("text/html");
+            response.setContentType("textml");
             PrintWriter out= response.getWriter();
             out.println("<html><body><table border='1'>");
             out.println("<tr><th>id</th><th>username</th><th>password</th><th>email</th><th>gender</th><th>birthdate</th></tr>");
@@ -66,7 +68,7 @@ public class RegisterServlet extends HttpServlet {
                 out.println("<td>"+gender1+"</td>");
                 out.println("<td>"+birthdate1+"</td>");
             }
-            out.println("</tr></table></body></html>");
+            out.println("</tr></table></body><ml>");
         } catch (SQLException e) {
             e.printStackTrace();
         }

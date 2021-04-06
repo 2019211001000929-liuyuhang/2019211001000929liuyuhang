@@ -19,21 +19,4 @@
         <param-name>password</param-name>
         <param-value>123456</param-value>
     </context-param>
-    <servlet>
-        <servlet-name>ConfigDemoServlet</servlet-name>
-        <servlet-class>com.liuyuhang.week4.ConfigDemoServlet</servlet-class>
-        <init-param>
-            <param-name>name</param-name>
-            <param-value>liuyuhang</param-value>
-        </init-param>
-        <init-param>
-            <param-name>studentid</param-name>
-            <param-value>2019211001000929</param-value>
-        </init-param>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>ConfigDemoServlet</servlet-name>
-        <url-pattern>/config</url-pattern>
-    </servlet-mapping>
-
 </web-app>
