@@ -3,16 +3,21 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-<<<<<<< HEAD
-    <servlet>
-        <servlet-name>liuyuhang</servlet-name>
-        <servlet-class>com.liuyuhang.week2.helloservlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>liuyuhang</servlet-name>
-        <url-pattern>/Hello</url-pattern>
-    </servlet-mapping>
+    <context-param>
+        <param-name>driver</param-name>
+        <param-value>com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value>
+    </context-param>
+    <context-param>
+        <param-name>url</param-name>
+        <param-value>jdbc:sqlserver://localhost;databaseName=userdb</param-value>
+    </context-param>
+    <context-param>
+        <param-name>username</param-name>
+        <param-value>sa</param-value>
+    </context-param>
+    <context-param>
+        <param-name>password</param-name>
+        <param-value>123456</param-value>
+    </context-param>
 
-=======
->>>>>>> a34490a0b752c171c97ab344898fb781e58739c2
 </web-app>
