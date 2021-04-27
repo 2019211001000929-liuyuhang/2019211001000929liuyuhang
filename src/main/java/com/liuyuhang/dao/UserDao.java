@@ -2,10 +2,7 @@ package com.liuyuhang.dao;
 
 import com.liuyuhang.model.User;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.Date;
 import java.util.List;
 
@@ -59,18 +56,20 @@ public class UserDao implements IUserDao{
     }
 
     @Override
-    public int updateUser(Connection con, User user) throws SQLException {
+    public User updateUser(Connection con, User user) throws SQLException {
         //update user
-        String updateUser ="update usertable set id=?,username=?,password=?,email=?,gender=?,birthdate=?";
+        String updateUser ="update usertable set username=?,password=?,email=?,gender=?,birthdate=? where id=?";
         PreparedStatement st = con.prepareStatement(updateUser);
-        st.setInt(1,user.getId());
-        st.setString(2,user.getUsername());
-        st.setString(3,user.getPassword());
-        st.setString(4,user.getEmail());
-        st.setString(5,user.getGender());
-        st.setDate(6, (java.sql.Date) user.getBirthdate());
+        st.setInt(6,user.getId());
+        st.setString(1,user.getUsername());
+        st.setString(2,user.getPassword());
+        st.setString(3,user.getEmail());
+        st.setString(4,user.getGender());
+        st.setDate(5, (java.sql.Date) user.getBirthdate());
         st.executeUpdate();
-        ResultSet rs = st.executeQuery("select * from usertable");
+        String sql="select * from usertable where id="+user.getId()+"";
+        Statement st1= con.createStatement();
+        ResultSet rs = st1.executeQuery(sql);
         user = null;
         if(rs.next()){
             user = new User();
@@ -81,7 +80,7 @@ public class UserDao implements IUserDao{
             user.setGender(rs.getString("gender"));
             user.setBirthdate(rs.getDate("birthdate"));
         }
-        return 0;
+        return user;
     }
 
     @Override

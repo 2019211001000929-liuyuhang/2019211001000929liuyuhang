@@ -11,15 +11,15 @@
   <component name="ChangeListManager">
     <list default="true" id="e48d8d24-0b5b-4597-ba74-d549a4190ee1" name="Default Changelist" comment="Week6 Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyuhang/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyuhang/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyuhang/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyuhang/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyuhang/week5/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyuhang/week5/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyuhang/week4/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyuhang/week4/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userinfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userinfo.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/liuyuhang/week5/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyuhang/week5/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/Login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/week4/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/week4/RegisterServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/week5/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/week5/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -76,17 +76,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 8.5.64" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.64" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="2019211001000929liuyuhang:war exploded">
@@ -146,7 +135,9 @@
       <workItem from="1618140577174" duration="158000" />
       <workItem from="1618140830029" duration="2017000" />
       <workItem from="1618304275031" duration="12253000" />
-      <workItem from="1618908468747" duration="8712000" />
+      <workItem from="1618908468747" duration="9353000" />
+      <workItem from="1619421487531" duration="12663000" />
+      <workItem from="1619509156497" duration="949000" />
     </task>
     <task id="LOCAL-00001" summary="week2 Commit">
       <created>1616151768663</created>
@@ -211,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618316059001</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Week7 Commits">
+      <created>1618917520568</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1618917520568</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +230,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="week2 Commit" />
     <MESSAGE value="Week6 Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week6 Commit" />
+    <MESSAGE value="Week7 Commits" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week7 Commits" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

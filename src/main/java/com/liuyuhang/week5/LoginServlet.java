@@ -6,9 +6,7 @@ import com.liuyuhang.model.User;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.*;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
@@ -61,7 +59,31 @@ public class LoginServlet extends HttpServlet {
             User user = userDao.findByUsernamePassword(con, Username,Password);
 
             if (user != null) {
-                request.setAttribute("user", user);
+//                Cookie c=new Cookie("sessionid",""+user.getId());
+//                c.setMaxAge(10*60);
+//               response.addCookie(c);
+                String rememberMe=request.getParameter("rememberMe");
+                if(rememberMe!=null && rememberMe.equals("1")){
+                    Cookie usernamecookie=new Cookie("cusername",user.getUsername());
+                    Cookie passwordcookie=new Cookie("cpassword",user.getPassword());
+                    Cookie rememberMecookie=new Cookie("cRememberMe",rememberMe);
+                    usernamecookie.setMaxAge(20);
+                    passwordcookie.setMaxAge(20);
+                    rememberMecookie.setMaxAge(20);
+
+                    response.addCookie(usernamecookie);
+                    response.addCookie(passwordcookie);
+                    response.addCookie(rememberMecookie);
+
+
+
+                }
+                HttpSession session=request.getSession();
+                System.out.println("session id-->"+session.getId());
+                session.setMaxInactiveInterval(10);
+
+
+                session.setAttribute("user", user);
                 request.getRequestDispatcher("WEB-INF/views/userinfo.jsp").forward(request, response);
             } else {
                 request.setAttribute("message", "Username or password Error");
