@@ -39,27 +39,26 @@ public class RegisterServlet extends HttpServlet {
     }
 
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        doPost(request,response);
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        request.getRequestDispatcher("WEB-INF/views/register.jsp").forward(request,response);
 
     }
 
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        int id= Integer.parseInt(request.getParameter("id"));
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         String username=request.getParameter("username");
         String password=request.getParameter("password");
         String email=request.getParameter("email");
         String gender=request.getParameter("gender");
         String birthdate= request.getParameter("birthdate");
 
-        String sql="insert into usertable(id,username,password,email,gender,birthdate) values("+id+",'"+username+"','"+password+"','"+email+"','"+gender+"','"+birthdate+"')";
+        String sql="insert into usertable(username,password,email,gender,birthdate) values('"+username+"','"+password+"','"+email+"','"+gender+"','"+birthdate+"')";
         try {
             Statement st=con.createStatement();
             st.executeUpdate(sql);
-            ResultSet rs=st.executeQuery("select * from usertable");
-            response.setContentType("text/html");
-            PrintWriter out= response.getWriter();
+//            ResultSet rs=st.executeQuery("select * from usertable");
+//            response.setContentType("text/html");
+//            PrintWriter out= response.getWriter();
 //            out.println("<html><body><table border='1'>");
 //            out.println("<tr><th>id</th><th>username</th><th>password</th><th>email</th><th>gender</th><th>birthdate</th></tr>");
 //            while (rs.next()) {
@@ -79,7 +78,8 @@ public class RegisterServlet extends HttpServlet {
 //            out.println("</tr></table></body><ml>");
 //            request.setAttribute("rsname",rs);
 //            request.getRequestDispatcher("UserList.jsp").forward(request,response);
-            response.sendRedirect("Login.jsp");
+//            response.sendRedirect("Login.jsp");
+            response.sendRedirect("login");
 
 
         } catch (SQLException e) {

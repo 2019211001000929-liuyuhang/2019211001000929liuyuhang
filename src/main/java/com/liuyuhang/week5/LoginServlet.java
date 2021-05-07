@@ -14,7 +14,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-@WebServlet (name="LoginServlet" , value="/Login")
+@WebServlet (name="LoginServlet" , value="/login")
 
 public class LoginServlet extends HttpServlet {
 
@@ -43,7 +43,7 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         //doPost(request,response);
-        request.getRequestDispatcher("WEB-INF/views/Login.jsp").forward(request, response);
+        request.getRequestDispatcher("WEB-INF/views/login.jsp").forward(request, response);
 
 
     }
@@ -87,7 +87,7 @@ public class LoginServlet extends HttpServlet {
                 request.getRequestDispatcher("WEB-INF/views/userinfo.jsp").forward(request, response);
             } else {
                 request.setAttribute("message", "Username or password Error");
-                request.getRequestDispatcher("WEB-INF/views/Login.jsp").forward(request, response);
+                request.getRequestDispatcher("WEB-INF/views/login.jsp").forward(request, response);
             }
 
 

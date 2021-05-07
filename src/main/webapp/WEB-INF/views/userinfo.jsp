@@ -13,9 +13,6 @@
 %>
 <table>
     <tr>
-        <td>id:</td><td><%=u.getId()%></td>
-    <tr/>
-    <tr>
         <td>Username:</td><td><%=u.getUsername()%></td>
     <tr/>
     <tr>

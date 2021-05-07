@@ -13,7 +13,7 @@
 
 <table border="1">
     <tr>
-        <th>id</th><th>username</th><th>password</th><th>email</th><th>gender</th><th>birthdate</th>
+       <th>username</th><th>password</th><th>email</th><th>gender</th><th>birthdate</th>
     </tr>
     <%
         ResultSet rs= (ResultSet) request.getAttribute("rsname");
@@ -25,18 +25,16 @@
     <%}else {
 
             while (rs.next()) {
-                int id1 = rs.getInt("id");
                 String username1 = rs.getString("username");
                 String password1 = rs.getString("password");
                 String email1 = rs.getString("email");
                 String gender1 = rs.getString("gender");
                 Date birthdate1 = rs.getDate("birthdate");
-                out.println("<tr><td>" + id1 + "</td>");
-                out.println("<td>" + username1 + "</td>");
+                out.println("<tr><td>" + username1 + "</td>");
                 out.println("<td>" + password1 + "</td>");
                 out.println("<td>" + email1 + "</td>");
                 out.println("<td>" + gender1 + "</td>");
-                out.println("<td>" + birthdate1 + "</td>");
+                out.println("<td>" + birthdate1 + "</td></tr>");
             }
     }
 %>

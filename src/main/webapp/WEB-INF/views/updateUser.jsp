@@ -13,7 +13,6 @@
     User u=(User) session.getAttribute("user");
 %>
 <form action="updateUser" method="post">
-    id<input type="text" name="id" value=<%=u.getId()%>><br/>
     username<input type="text" name="username" value=<%=u.getUsername()%>><br/>
     password<input type="password" name="password" value=<%=u.getPassword()%>><br/>
     email<input type="text" name="email" value=<%=u.getEmail()%>><br/>

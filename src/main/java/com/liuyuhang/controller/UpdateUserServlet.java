@@ -43,7 +43,6 @@ public class UpdateUserServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        int Id = Integer.parseInt(request.getParameter("id"));
         String Username = request.getParameter("username");
         String Password = request.getParameter("password");
         String Email = request.getParameter("email");
@@ -52,7 +51,6 @@ public class UpdateUserServlet extends HttpServlet {
 
         UserDao userDao=new UserDao();
         User user=new User();
-        user.setId(Id);
         user.setUsername(Username);
         user.setPassword(Password);
         user.setEmail(Email);
