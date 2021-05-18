@@ -12,32 +12,19 @@
     <list default="true" id="e48d8d24-0b5b-4597-ba74-d549a4190ee1" name="Default Changelist" comment="Week6 Commit">
       <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/liuyuhang2019211001000929/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/liuyuhang2019211001000929/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyuhang/controller/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyuhang/controller/LogoutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyuhang/controller/UpdateUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyuhang/controller/UpdateUserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyuhang/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyuhang/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyuhang/week4/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyuhang/week4/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyuhang/week5/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyuhang/week5/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/UserList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/UserList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/updateUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/updateUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userinfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userinfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/liuyuhang2019211001000929/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/liuyuhang2019211001000929/HelloServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyuhang/week4/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyuhang/week4/RegisterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/UserList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/UserList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/example/liuyuhang2019211001000929/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/example/liuyuhang2019211001000929/HelloServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/week4/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/week4/RegisterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/Login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/updateUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/updateUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/userinfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/userinfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyuhang/controller/AdminHomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyuhang/controller/AdminHomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/productList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/productList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyuhang/controller/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyuhang/controller/LogoutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyuhang/controller/UpdateUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyuhang/controller/UpdateUserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyuhang/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyuhang/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyuhang/week5/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyuhang/week5/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/controller/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/controller/LogoutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/controller/UpdateUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/controller/UpdateUserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/week5/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/week5/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/admin/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/admin/addProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/admin/productList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/admin/productList.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -87,12 +74,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/liuyuhang/dao" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ IDEA 2020.3.2\liuyuhang\src\main\java\com\liuyuhang\dao" />
       <recent name="D:\IntelliJ IDEA 2020.3.2\liuyuhang\src\main\webapp\WEB-INF\views" />
       <recent name="D:\IntelliJ IDEA 2020.3.2\liuyuhang\src\main\webapp" />
     </key>
@@ -127,6 +115,24 @@
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52233" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -176,7 +182,12 @@
       <workItem from="1619519609105" duration="885000" />
       <workItem from="1620296042316" duration="1136000" />
       <workItem from="1620298966480" duration="10195000" />
-      <workItem from="1620362390446" duration="6651000" />
+      <workItem from="1620362390446" duration="8134000" />
+      <workItem from="1620383719182" duration="65000" />
+      <workItem from="1621333717717" duration="5111000" />
+      <workItem from="1621339228736" duration="1758000" />
+      <workItem from="1621341115335" duration="148000" />
+      <workItem from="1621341557826" duration="3892000" />
     </task>
     <task id="LOCAL-00001" summary="week2 Commit">
       <created>1616151768663</created>
@@ -255,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619513999494</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Week9 Commits">
+      <created>1620373891011</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1620373891011</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +296,8 @@
     <MESSAGE value="Week6 Commit" />
     <MESSAGE value="Week7 Commits" />
     <MESSAGE value="Week8 Commits" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week8 Commits" />
+    <MESSAGE value="Week9 Commits" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week9 Commits" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
