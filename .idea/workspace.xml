@@ -10,24 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e48d8d24-0b5b-4597-ba74-d549a4190ee1" name="Default Changelist" comment="Week6 Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jakarta_taglibs_standard_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/cart/empty_cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/cart/no_order.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/2019211001000929liuyuhang_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/2019211001000929liuyuhang_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab1/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab1/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2019211001000929liuyuhang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019211001000929liuyuhang.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyuhang/controller/ProductListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyuhang/controller/ProductListServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyuhang/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyuhang/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/productList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/productList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productDetails.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyuhang/controller/ProductListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyuhang/controller/ProductListServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyuhang/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyuhang/dao/ProductDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/controller/ProductListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/controller/ProductListServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/dao/ProductDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/admin/productList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/admin/productList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyuhang/controller/AddProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyuhang/controller/AddProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyuhang/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyuhang/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyuhang/controller/AddProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyuhang/controller/AddProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyuhang/model/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyuhang/model/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/controller/AddProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/controller/AddProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/model/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/model/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/admin/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/admin/addProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/productDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/productDetails.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/shop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/shop.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/images/cart" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="库" />
     <property name="project.structure.proportion" value="0.15" />
@@ -88,26 +87,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ IDEA 2020.3.2\liuyuhang\src\main\webapp" />
+      <recent name="D:\IntelliJ IDEA 2020.3.2\liuyuhang\src\main\java\com" />
       <recent name="D:\IntelliJ IDEA 2020.3.2\liuyuhang\src\main\webapp\images\cart" />
       <recent name="D:\IntelliJ IDEA 2020.3.2\liuyuhang\src\main\webapp\WEB-INF\views" />
       <recent name="D:\IntelliJ IDEA 2020.3.2\liuyuhang\src\main\java\com\liuyuhang\dao" />
-      <recent name="D:\IntelliJ IDEA 2020.3.2\liuyuhang\src\main\webapp" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 8.5.64" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.64" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="2019211001000929liuyuhang:war exploded">
@@ -127,6 +114,21 @@
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="52233" />
       </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -198,7 +200,10 @@
       <workItem from="1621341115335" duration="148000" />
       <workItem from="1621341557826" duration="4106000" />
       <workItem from="1621937249583" duration="5615000" />
-      <workItem from="1621943053251" duration="6398000" />
+      <workItem from="1621943053251" duration="7099000" />
+      <workItem from="1622546548693" duration="11331000" />
+      <workItem from="1622593007800" duration="7000000" />
+      <workItem from="1622600171518" duration="2017000" />
     </task>
     <task id="LOCAL-00001" summary="week2 Commit">
       <created>1616151768663</created>
@@ -291,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621345666828</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Week12 Commits">
+      <created>1621949830975</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1621949830975</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +328,74 @@
     <MESSAGE value="Week8 Commits" />
     <MESSAGE value="Week9 Commits" />
     <MESSAGE value="Week11 Commits" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week11 Commits" />
+    <MESSAGE value="Week12 Commits" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week12 Commits" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/liuyuhang/dao/ProductDao.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addProduct.jsp</url>
+          <line>34</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addProduct.jsp</url>
+          <line>35</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addProduct.jsp</url>
+          <line>36</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addProduct.jsp</url>
+          <line>38</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addProduct.jsp</url>
+          <line>37</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addProduct.jsp</url>
+          <line>39</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addProduct.jsp</url>
+          <line>40</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addProduct.jsp</url>
+          <line>41</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/liuyuhang/model/Product.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/liuyuhang/model/Product.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/liuyuhang/controller/AddProductServlet.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

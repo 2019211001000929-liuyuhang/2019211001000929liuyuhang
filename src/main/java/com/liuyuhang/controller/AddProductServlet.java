@@ -38,7 +38,7 @@ public class AddProductServlet extends HttpServlet {
 
         String productName=request.getParameter("productName");
         double price=request.getParameter("price")!=null?Double.parseDouble(request.getParameter("price")):0.0;
-        int categoryId=request.getParameter("categoryId")!=null?Integer.parseInt(request.getParameter("categoryId")):8;
+        String categoryId=request.getParameter("CategoryId");
 
         String productDescription=request.getParameter("productDescription");
 
@@ -52,12 +52,12 @@ public class AddProductServlet extends HttpServlet {
         product.setProductDescription(productDescription);
         product.setPicture(inputStream);
         product.setPrice(price);
-        product.setProductId(categoryId);
+        product.setProductId(Integer.parseInt(categoryId));
 
         ProductDao productDao=new ProductDao();
         try {
             int n=productDao.save(product,con);
-            if(1>0){
+            if(n>0){
                 response.sendRedirect("productList");
             }
         } catch (SQLException throwables) {

@@ -27,7 +27,7 @@
 				                <input type="text" name="price" class="form-control" required="required" placeholder="Price">
 				            </div>
 				            <div class="form-group col-md-6">
-				               	<select name="categoryId">
+				               	<select name="CategoryId">
 										<option >-- Category --</option>
 											<!-- loop_start -->
 											
