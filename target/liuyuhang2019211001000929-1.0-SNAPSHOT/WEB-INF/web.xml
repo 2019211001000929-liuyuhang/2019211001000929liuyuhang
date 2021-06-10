@@ -20,33 +20,49 @@
         <param-value>123456</param-value>
     </context-param>
 
-    <welcome-file-list>
-        <welcome-file>home</welcome-file>
-    </welcome-file-list>
+<!--    <welcome-file-list>-->
+<!--        <welcome-file>home</welcome-file>-->
+<!--    </welcome-file-list>-->
 
+<!--    <filter>-->
+<!--        <filter-name>AuthServlet</filter-name>-->
+<!--        <filter-class>com.liuyuhang.filter.AuthFilter</filter-class>-->
+<!--    </filter>-->
+<!--    <filter-mapping>-->
+<!--        <filter-name>AuthServlet</filter-name>-->
+<!--        <url-pattern>/hello</url-pattern>-->
+<!--    </filter-mapping>-->
+<!--    <filter>-->
+<!--        <filter-name>HelloServlet</filter-name>-->
+<!--        <filter-class>com.liuyuhang.filter.HelloFilter</filter-class>-->
+<!--    </filter>-->
+<!--    <filter-mapping>-->
+<!--        <filter-name>HelloServlet</filter-name>-->
+<!--        <url-pattern>/hello</url-pattern>-->
+<!--    </filter-mapping>-->
+<!--    <filter>-->
+<!--        <filter-name>LoggerServlet</filter-name>-->
+<!--        <filter-class>com.liuyuhang.filter.LoggerFilter</filter-class>-->
+<!--    </filter>-->
+<!--    <filter-mapping>-->
+<!--        <filter-name>LoggerServlet</filter-name>-->
+<!--        <url-pattern>/hello</url-pattern>-->
+<!--    </filter-mapping>-->
     <filter>
-        <filter-name>AuthServlet</filter-name>
-        <filter-class>com.liuyuhang.filter.AuthFilter</filter-class>
+        <filter-name>liuyuhang</filter-name>
+        <filter-class>com.lab2.liuyuhangFilter</filter-class>
     </filter>
     <filter-mapping>
-        <filter-name>AuthServlet</filter-name>
-        <url-pattern>/hello</url-pattern>
+        <filter-name>liuyuhang</filter-name>
+        <url-pattern>/lab2/welcome.jsp</url-pattern>
     </filter-mapping>
     <filter>
-        <filter-name>HelloServlet</filter-name>
-        <filter-class>com.liuyuhang.filter.HelloFilter</filter-class>
+        <filter-name>login</filter-name>
+        <filter-class>com.lab2.LoginFilter</filter-class>
     </filter>
     <filter-mapping>
-        <filter-name>HelloServlet</filter-name>
-        <url-pattern>/hello</url-pattern>
-    </filter-mapping>
-    <filter>
-        <filter-name>LoggerServlet</filter-name>
-        <filter-class>com.liuyuhang.filter.LoggerFilter</filter-class>
-    </filter>
-    <filter-mapping>
-        <filter-name>LoggerServlet</filter-name>
-        <url-pattern>/hello</url-pattern>
+        <filter-name>login</filter-name>
+        <url-pattern>/lab2/welcome.jsp</url-pattern>
     </filter-mapping>
 
 

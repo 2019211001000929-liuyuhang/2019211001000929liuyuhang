@@ -10,23 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e48d8d24-0b5b-4597-ba74-d549a4190ee1" name="Default Changelist" comment="Week6 Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab1/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab1/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019211001000929liuyuhang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019211001000929liuyuhang.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyuhang/controller/AddProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyuhang/controller/AddProductServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyuhang/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyuhang/model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addProduct.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyuhang/controller/AddProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyuhang/controller/AddProductServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuyuhang/model/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuyuhang/model/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/controller/AddProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/controller/AddProductServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/model/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/classes/com/liuyuhang/model/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/admin/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/admin/addProduct.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/productDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/productDetails.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/shop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/views/shop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/liuyuhang2019211001000929-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +190,9 @@
       <workItem from="1621943053251" duration="7099000" />
       <workItem from="1622546548693" duration="11331000" />
       <workItem from="1622593007800" duration="7000000" />
-      <workItem from="1622600171518" duration="2017000" />
+      <workItem from="1622600171518" duration="3433000" />
+      <workItem from="1623197861027" duration="5990000" />
+      <workItem from="1623204143956" duration="3800000" />
     </task>
     <task id="LOCAL-00001" summary="week2 Commit">
       <created>1616151768663</created>
@@ -303,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621949830975</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Lab1">
+      <created>1622602662721</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1622602662721</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +325,8 @@
     <MESSAGE value="Week9 Commits" />
     <MESSAGE value="Week11 Commits" />
     <MESSAGE value="Week12 Commits" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week12 Commits" />
+    <MESSAGE value="Lab1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
